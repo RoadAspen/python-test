@@ -7,7 +7,7 @@ for i in range(l//2):
     if x[i] != x[-i-1]:
         flag = False
 if flag:
-    print('%s是回文数' % (a))
+    print('%10s是回文数' % (a))
 else:
-    print('%s不是回文数' % (a))
+    print('%20s不是回文数' % (a))
 

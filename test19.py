@@ -16,5 +16,7 @@ def reduceNum(n):
     if reduce(add, asd) == num:
         print(num)
 
-for count in range(2,1001):
+
+for count in range(2, 1001):
     reduceNum(count)
+
